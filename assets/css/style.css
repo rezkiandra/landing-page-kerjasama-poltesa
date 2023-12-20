@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --navbar-font: 15px;
+    --topbar-font: 14px;
+}
+
+/* Banner */
+#banner {
+    background: linear-gradient(90deg, rgba(135, 57, 195, 1) 0%, rgba(51, 27, 68, 1) 100%);
+    height: 60vh;
+}
+
+#banner .border-purple {
+    border-color: #472272;
+}
+
+/* Carousel */
+#carousel .carousel-inner .carousel-item {
+    transition-duration: 1.5s;
+}
+
+
+#carousel .transform {
+    transition: 5s ease-out 5s ease-in 1s ease-in-out;
+    opacity: 90%;
+}
+
+#carousel .carouse-fade {
+    transition-duration: 1.5s;
+    opacity: 50%;
+}
+
+/* End Carousel */
+
+/* End Banner */
+
+/* Statistik */
+#carousel .carousel-inner {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#grafik .bg-chart {
+    background-color: #472272;
+}
+
+#grafik .bg-counter {
+    background: linear-gradient(97deg, rgba(135, 57, 195, 1) 0%, rgba(51, 27, 68, 1) 100%);
+}
+
+/* End Statistik */
+
+#footer #back-top {
+    transition: all 0.5s ease-in-out 0s;
+}
